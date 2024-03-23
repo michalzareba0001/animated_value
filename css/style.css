@@ -19,4 +19,32 @@ main container {
   width: 80%;
   min-height: 350px;
   padding: 40px;
+}
+main .range-display {
+  border: 1px solid red;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+main .range-display #tableOne {
+  top: 0px;
+  transition: all 500ms;
+}
+main .range-display .value-table {
+  background-color: cadetblue;
+  width: 250px;
+  position: absolute;
+  right: 0;
+}
+main .range-display .value-table ul {
+  list-style: none;
+}
+main .range-display .value-table ul li {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
